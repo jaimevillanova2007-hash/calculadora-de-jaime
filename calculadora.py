@@ -78,7 +78,11 @@ while Opciones != 0:
         volumen = (lado**3) / (6 * 1.414)
         print("Volumen:", volumen)
 
-    
+    elif op == 0:
+        print("Programa terminado")
+
+    else:
+        print("Opción incorrecta")
 
 
 
