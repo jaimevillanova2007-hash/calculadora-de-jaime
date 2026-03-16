@@ -14,8 +14,7 @@ while Opciones != 0:
     print("7. Trapecio (Area)")
     print("8. Pentágono (Area")
     print("9. Hexágono (Area)")
-    print("10. Tetraedro (volumen)")
-    print("0. salir")
+    print("10. salir")
     Opciones = int(input("Elige una opcion: "))
 
 
@@ -73,10 +72,7 @@ while Opciones != 0:
         area = (p * a) / 2
         print("Área:", area)
 
-    elif Opciones == 10:
-        lado = float(input("Ingresa el lado del tetraedro: "))
-        volumen = (lado**3) / (6 * 1.414)
-        print("Volumen:", volumen)
+   
 
     elif op == 0:
         print("Programa terminado")
